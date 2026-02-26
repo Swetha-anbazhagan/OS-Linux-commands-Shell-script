@@ -179,32 +179,38 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="489" height="76" alt="image" src="https://github.com/user-attachments/assets/f4468e9c-90d1-44e4-ab26-333349fdac71" />
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="489" height="76" alt="image" src="https://github.com/user-attachments/assets/bde527d1-b7d9-46bd-91a8-143eb6601ac4" />
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+<img width="489" height="73" alt="image" src="https://github.com/user-attachments/assets/985f7882-b83c-4075-9327-f6f2e6842660" />
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+<img width="489" height="50" alt="image" src="https://github.com/user-attachments/assets/e76fc456-0a5c-40ca-beae-2f5b3dca3b90" />
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="498" height="67" alt="image" src="https://github.com/user-attachments/assets/2080f1fe-b5bd-40a4-9d2f-a820813390d1" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="505" height="53" alt="image" src="https://github.com/user-attachments/assets/a54bc871-1de9-43d9-9bc3-e25ca2748714" />
 
 
 egrep '((W|w)orld$)' newfile 
