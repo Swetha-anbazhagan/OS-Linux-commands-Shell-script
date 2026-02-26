@@ -117,34 +117,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+<img width="404" height="53" alt="image" src="https://github.com/user-attachments/assets/51a4ee7d-f8ee-406f-9363-40b11cdd38de" />
 
 
 
 grep hello newfile 
 ## OUTPUT
+<img width="404" height="53" alt="image" src="https://github.com/user-attachments/assets/2098e21b-b1c6-4558-aff2-315f6d110dce" />
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="404" height="53" alt="image" src="https://github.com/user-attachments/assets/f922ed30-6871-4351-8f9f-175985cf5986" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="418" height="72" alt="image" src="https://github.com/user-attachments/assets/bfe57a23-9615-418c-b426-b27f17827cb9" />
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+<img width="494" height="47" alt="image" src="https://github.com/user-attachments/assets/619aea46-67fe-4ae4-8e14-2554a4974fff" />
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="1257" height="510" alt="image" src="https://github.com/user-attachments/assets/1be7dba0-bd25-444a-8a71-7ade5e798f55" />
 
 
 
@@ -285,30 +291,37 @@ sed -n -e '/tom/,/Joe/p' file23
 
 seq 10 
 ## OUTPUT
+<img width="337" height="254" alt="image" src="https://github.com/user-attachments/assets/8667e952-2332-4452-8d0e-791a42b07ede" />
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+<img width="380" height="98" alt="image" src="https://github.com/user-attachments/assets/7f99c858-67ac-4f5b-9a3a-d6de965bfe3e" />
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+<img width="380" height="94" alt="image" src="https://github.com/user-attachments/assets/bfb15a40-8d4b-4823-beea-4268b460c036" />
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="391" height="115" alt="image" src="https://github.com/user-attachments/assets/c64a19d0-20d0-4c38-a313-32444aba37b7" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="391" height="101" alt="image" src="https://github.com/user-attachments/assets/ba617e49-f631-4f21-8e48-60aac35b9c46" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="398" height="90" alt="image" src="https://github.com/user-attachments/assets/82542fa7-6c97-4acd-b96b-8a58a40919d2" />
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
