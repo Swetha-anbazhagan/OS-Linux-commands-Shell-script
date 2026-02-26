@@ -6,6 +6,10 @@ Linux commands-Shell scripting
 # AIM:
 To practice Linux Commands and Shell Scripting
 
+## REG NO: 212224040343
+
+## NAME: SWETHA A
+
 # DESIGN STEPS:
 
 ### Step 1:
@@ -42,16 +46,21 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+<img width="245" height="118" alt="image" src="https://github.com/user-attachments/assets/7930e700-29bd-4481-b2e0-3eb697eaacc0" />
 
 
 
 cat < file2
 ## OUTPUT
+<img width="258" height="147" alt="image" src="https://github.com/user-attachments/assets/1e8293a6-d185-4f47-9149-2a67c1264e5d" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+
+<img width="378" height="228" alt="image" src="https://github.com/user-attachments/assets/f99e6343-2f59-450e-ae7f-5e151a60ef65" />
+
  
 comm file1 file2
  ## OUTPUT
@@ -59,6 +68,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
+<img width="378" height="228" alt="image" src="https://github.com/user-attachments/assets/e9c6fe1c-0c5a-4a64-b703-18010db23330" />
 
 
 #Filters
