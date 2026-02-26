@@ -379,11 +379,13 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="414" height="94" alt="image" src="https://github.com/user-attachments/assets/0b2e7694-490f-4670-a29a-49bc6a49ba81" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="552" height="90" alt="image" src="https://github.com/user-attachments/assets/e39d01b7-9236-4062-9ac1-bbc1a2a43980" />
 
 
 
@@ -422,6 +424,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="608" height="340" alt="image" src="https://github.com/user-attachments/assets/7a23c24c-b0f5-4c33-8daf-2936fae521ab" />
 
  
 cat << stop > herecheck.txt
@@ -476,6 +479,8 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
+<img width="471" height="59" alt="image" src="https://github.com/user-attachments/assets/bbe943b3-5c4e-45a8-a143-5642685fd79d" />
+
 
 echo $?
 ## OUTPUT 
@@ -489,6 +494,7 @@ abcd
  
 echo $?
  ## OUTPUT
+<img width="471" height="55" alt="image" src="https://github.com/user-attachments/assets/dc337105-2bcc-4708-8b2c-8d02598db1fe" />
 
 
  
@@ -528,6 +534,8 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="508" height="268" alt="image" src="https://github.com/user-attachments/assets/eb3edcee-5f86-4c00-9d76-1bf9dd2ac64b" />
+
 
 
 # check file ownership
